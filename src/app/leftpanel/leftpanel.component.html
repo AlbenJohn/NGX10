@@ -1,0 +1,13 @@
+<div id="leftPaneldiv" >
+        <div class="ui-layout-center" id="leftpanel_center">
+            <div class="ajx_row">
+                <div class="ajx_col" *ngFor="let items of menuitems" (click)="createcomponent(items)">
+                    <label class="ajx_col_label">{{items.name}}</label>
+                </div>
+            </div>
+        </div>
+        <div class="ui-layout-north" id="leftpanel_north">North</div>
+        <div class="ui-layout-south" id="leftpanel_south">South</div>
+        <div class="ui-layout-east" id="leftpanel_east">East</div>
+        <div class="ui-layout-west" id="leftpanel_west">West</div>
+</div>

@@ -1,0 +1,36 @@
+.loginbody {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+  }
+  
+  .loginbody::after {
+    content: "";
+    background: url(../../assets/dubai.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;  
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  .layerbody{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: black;
+      opacity:0.5;
+  }
+  .loginform{
+    position: fixed;
+    z-index: 2;
+    margin: 0 auto;
+    width: 30%;
+    transform: translate(0%, -50%);
+    top: 50%;
+    left: 35%;
+  }
